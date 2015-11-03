@@ -1,0 +1,37 @@
+.ProfileTweet-action--favorite.withHeartIcon .ProfileTweet-actionButton:hover,
+.ProfileTweet-action--favorite.withHeartIcon .ProfileTweet-actionButton:focus,
+.ProfileTweet-action--favorite.withHeartIcon .ProfileTweet-actionCount:hover,
+.ProfileTweet-action--favorite.withHeartIcon .ProfileTweet-actionCount:focus,
+.favorited .ProfileTweet-action--favorite .Icon--heart,
+.favorited .ProfileTweet-action--favorite.withHeartIcon .ProfileTweet-actionButtonUndo {
+    color: #ffac33 !important;
+}
+
+.HeartAnimation {
+    background: none !important;
+    position: relative !important;
+    height: inherit !important;
+    width: inherit !important;
+    left: inherit !important;
+    top: inherit !important;
+}
+
+.HeartAnimation:before {
+    display: block;
+    font-family: "rosettaicons";
+    font-weight: normal;
+    font-style: normal;
+    text-align: center;
+    -webkit-font-smoothing: antialiased;
+    content: "\f147";
+}
+
+
+.HeartAnimationContainer {
+    background: transparent;
+    display: inline-block;
+    font-style: normal;
+    vertical-align: baseline;
+    position: relative;
+}
+
