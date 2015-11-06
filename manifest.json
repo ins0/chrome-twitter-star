@@ -1,6 +1,6 @@
 {
   "name": "Twitter Star",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "manifest_version": 2,
   "description": "Return of the Twitter Tweet Star",
   "homepage_url": "https://github.com/ins0/chrome-twitter-star",
