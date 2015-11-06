@@ -1,9 +1,12 @@
-.ProfileTweet-action--favorite.withHeartIcon .ProfileTweet-actionButton:hover,
-.ProfileTweet-action--favorite.withHeartIcon .ProfileTweet-actionButton:focus,
-.ProfileTweet-action--favorite.withHeartIcon .ProfileTweet-actionCount:hover,
-.ProfileTweet-action--favorite.withHeartIcon .ProfileTweet-actionCount:focus,
+.ProfileTweet-action--favorite .ProfileTweet-actionButton:hover,
+.ProfileTweet-action--favorite .ProfileTweet-actionButton:focus,
+.ProfileTweet-action--favorite .ProfileTweet-actionCount:hover,
+.ProfileTweet-action--favorite .ProfileTweet-actionCount:focus,
 .favorited .ProfileTweet-action--favorite .Icon--heart,
-.favorited .ProfileTweet-action--favorite.withHeartIcon .ProfileTweet-actionButtonUndo {
+.favorited .ProfileTweet-action--favorite .ProfileTweet-actionButtonUndo,
+.Icon--colorHeart,
+.Icon--circleActiveHeart,
+.Icon--heartBadge {
     color: #ffac33 !important;
 }
 
@@ -16,22 +19,12 @@
     top: inherit !important;
 }
 
-.HeartAnimation:before {
+.HeartAnimation:before, .Icon--heartBadge:before {
     display: block;
     font-family: "rosettaicons";
     font-weight: normal;
     font-style: normal;
     text-align: center;
     -webkit-font-smoothing: antialiased;
-    content: "\f147";
+    content: "\f147" !important;
 }
-
-
-.HeartAnimationContainer {
-    background: transparent;
-    display: inline-block;
-    font-style: normal;
-    vertical-align: baseline;
-    position: relative;
-}
-
